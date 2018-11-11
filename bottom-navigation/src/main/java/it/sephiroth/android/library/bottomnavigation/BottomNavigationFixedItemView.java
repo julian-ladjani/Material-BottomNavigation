@@ -176,14 +176,14 @@ public class BottomNavigationFixedItemView extends BottomNavigationItemViewAbstr
         canvas.restore();
 
         canvas.save();
-        canvas.scale(canvasTextScale, canvasTextScale, textCenterX, textCenterY);
+        /*canvas.scale(canvasTextScale, canvasTextScale, textCenterX, textCenterY);
 
         canvas.drawText(
             getItem().getTitle(),
             textX,
             textY,
             textPaint
-        );
+        );*/
 
         canvas.restore();
 
